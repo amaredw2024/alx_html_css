@@ -1,0 +1,10 @@
+.works_on_smartphone , .header , .nav{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    overflow-y: auto;
+}
