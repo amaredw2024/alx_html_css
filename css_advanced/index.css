@@ -1,0 +1,166 @@
+/* ================== RESET ================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #fff;
+}
+
+/* ================= HERO SECTION ================= */
+.hero {
+    background-image: url("img/Object.png");
+}
+
+/* ================= NAVIGATION ================= */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+/* ================= HERO CONTENT ================= */
+.hero-content {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.hero-content h1 {
+    font-size: 85px;
+    font-weight: 800;
+}
+
+.tags {
+    margin: 15px 0;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.tags span {
+    margin: 0 12px;
+}
+
+.btn {
+    background: #d84ff7;
+    color: white;
+    padding: 12px 35px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #c545e1;
+}
+
+.subtitle {
+    margin-top: 80px;
+    color: #ccc;
+    font-size: 22px;
+}
+
+.subtitle span {
+    color: #d84ff7;
+    font-weight: bold;
+}
+
+/* ================= MENTORS ================= */
+.mentors {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.mentor {
+    text-align: center;
+    width: 150px;
+}
+
+.mentor img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.mentor h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.mentor p {
+    font-size: 12px;
+    color: #ccc;
+}
+/* Main section background */
+.testimonial {
+    background-color: #c47cf5;   /* purple background */
+    padding: 60px 20px;
+}
+
+/* Content centered horizontally */
+.testimonial-container {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 25px;   /* space between image and text */
+}
+
+/* Profile image */
+.profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Quote text */
+.quote {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Name */
+.person-name {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Job title */
+.job-title {
+    color: #f0e6ff;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 5px;
+}
