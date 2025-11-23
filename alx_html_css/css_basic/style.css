@@ -5,7 +5,22 @@ body {
     margin: 0;
 }
 
-/* Make <main> a flex container */
+.works_on_smartphone{
+    background-color: aqua;
+    border: #ff9900;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+justify-items: center;
+}
+headr,ul {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+
+}
 main {
     display: flex;
     flex-direction: row; /* article | aside (horizontal) */
@@ -24,15 +39,16 @@ aside {
     flex: 1;
     overflow-y: auto; /* enable scrolling */
     padding: 10px;
+    background-color: #ff9900;
 }
 
-/* Optional (for visual clarity during development) */
+
 header, footer {
     padding: 10px;
 }
 
 body {
-    background: #f8f9fa;
+    background-color: #0077ff;
     color: #333;
 }
 
